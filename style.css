@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+}
+
+.button {
+    width: calc(50% - 12px);
+    padding: 10px;
+    margin: 10px 6px 0 6px;
+    border-radius: 4px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.resultado, .resultado-chunks {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.mediaAluno.red {
+    color: red;
+}
+
+.media-turmas p {
+    font-weight: bold;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
